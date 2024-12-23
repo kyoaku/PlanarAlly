@@ -22,7 +22,13 @@ When run as is, it will loop through all shapes and print out the ones with brok
 
 When run with the `delete` argument, it will remove the broken shapes from the DB. (i.e. `python remove-broken-shape-links.py delete`)
 
+
 ## [2024.3.0] - 2024-10-13
+
+### Removed
+
+-   Remnants of last-gameboard integration code
+    -   This was no longer maintained and no longer working afaik
 
 ### Added
 

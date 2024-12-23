@@ -115,6 +115,10 @@ export interface ApiAssetUpload {
   totalSlices: number;
   data: string;
 }
+export interface ApiAudioMessage {
+  action: string;
+  fileName: string;
+}
 export interface ApiBaseRectShape extends ApiCoreShape {
   width: number;
   height: number;
@@ -436,10 +440,6 @@ export interface ClientConnected {
 }
 export interface ClientDisconnected {
   client: ClientId;
-}
-export interface ClientGameboardSet {
-  client: ClientId;
-  boardId: string;
 }
 export interface ClientMove {
   client: ClientId;
